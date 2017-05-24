@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.redeye.CapaLogica.InformationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <WebView
+            android:id="@+id/web_1"
+            android:layout_width="match_parent"
+            android:layout_height="491dp"
+            android:layout_weight="1">
+
+        </WebView>
+
+        <Button
+            android:id="@+id/btn_cod"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="475dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:text="Registrar Codigo"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+</FrameLayout>
